@@ -1,0 +1,111 @@
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100vh; /* 100vh는 화면 높이의 100% */
+    /* padding: 50px 20px; */
+    /* background-color: var(--mi-400); */
+    border-radius: 15px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    font-weight: bold;
+    /* margin-top: 10%; */
+}
+.container div {}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: var(--mi-400);
+    margin: 3% 0;
+}
+
+/* 부모 */
+.about {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    align-items: center;
+}
+
+/* 위 */
+.aboutMe {
+    flex: 6;
+    display: flex; height: 100%;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.aboutMe > div:first-child {
+    flex: 2;display: flex;justify-content: end;align-items: center; 
+}
+.aboutMe > div:first-child > div {
+    width: 200px; height: 200px; border-radius: 50%;
+}
+.img > div{
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.img > div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.img img:hover {
+    transform: scale(1.1);
+}
+
+.aboutMe > div:last-child {  
+    flex: 8;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 아래 */
+.keywords {
+    flex: 4; 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.keywordButton {
+    padding: 12px 25px;
+    background-color: var(--mi-400);
+    color: #1f1f1f;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.keywordButton:hover {
+    background-color: var(--mi-300);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: var(--mi-400);
+}

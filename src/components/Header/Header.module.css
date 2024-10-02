@@ -1,0 +1,55 @@
+.headerWrap {
+  background-color: var(--mi-100);
+  color: var(--mi-400);
+  letter-spacing: 1px;
+  /* border-bottom: 1px solid var(--mi-400); */
+}
+
+.headerCont {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--mi-100);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  transition: top 0.1s;
+  border-bottom: 1px solid var(--mi-400);
+}
+
+.name {
+  font-size: 18px;
+  color: var(--mi-500);
+  margin-right: 20px; /* 오른쪽 여백 */
+  cursor: pointer;
+}
+
+.naviMenuList {
+  display: flex;
+  gap: 30px;
+}
+
+.naviMenu {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--mi-400);
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.naviMenu:hover {
+  color: var(--mi-500);
+  transform: translateY(-3px);
+}
+
+.naviMenu.active {
+  color: var(--mi-700);
+  text-shadow: 
+    1px 1px 0px rgba(255, 255, 255, 0.1),
+    -1px 1px 0px rgba(255, 255, 255, 0.1),
+    1px -1px 0px rgba(255, 255, 255, 0.1),
+    -1px -1px 0px rgba(255, 255, 255, 0.1);
+}

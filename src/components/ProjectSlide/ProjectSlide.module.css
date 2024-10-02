@@ -1,0 +1,82 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: var(--mi-400);
+    display: flex;flex-direction: column;
+    color: var(--mi-100);
+  }
+  .container:first-child{
+    border-radius: 10px 10px 0 0;
+  }
+  .container:last-child{
+    border-radius: 0 0 10px 10px;
+  }
+  
+  /* 제목 */
+  .title {
+    text-align: center;
+    font-size: 30px;
+    flex: 1;
+    margin: 0;
+    padding-top: 30px;
+    color: var(--mi-100);
+  }
+  .subTitle{
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  /* 내용 */
+  .projectContent {
+    flex: 9;
+    display: flex;
+    justify-content: space-between; align-items: center;
+    gap: 30px;
+  }
+  
+  /* 내용 안 이미지 */
+  .leftSide {
+    max-width: 60%; height: 500px;
+    position: relative; border-radius: 10px; background-color: var(--mi-100);
+  }
+  
+  .slideImage {
+    width: 100%;
+    height: 500px; 
+    object-fit: contain; 
+    border-radius: 10px; 
+  }
+  
+  /* 내용 안 내용 */
+  .rightSide {
+    flex: 1;
+    max-width: 40%; height: 500px; line-height: 25px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+    overflow-y: auto;
+    font-size: 14px; 
+  }
+  
+  .rightSide h2 {
+    margin-bottom: 10px;
+  }
+  
+  .rightSide p {
+    margin-bottom: 20px; font-weight: bold; 
+  }
+  .rightSide p:first-child {background-color: var(--mi-400); border-radius: 8px; padding: 30px;}
+  
+  .rightSide ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    background-color:var(--mi-300); border-radius: 8px; padding: 30px;
+    font-weight: bold;
+  }
+  
+  
