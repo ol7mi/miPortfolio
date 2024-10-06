@@ -6,6 +6,7 @@
     margin: 0px auto;
     color: var(--hows-gray-900);
 }
+
 .footerContent {
     display: flex;
     justify-content: space-between;
@@ -25,6 +26,9 @@
     text-decoration: none;
 }
 
+.footerLinks a:first-child {
+    margin-left: 20px;
+}
 .footerLinks a {
     margin: 0 10px;
     color: #6c757d;
