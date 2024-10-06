@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miPortfolio/static/css/main.31b9f147.css",
-    "main.js": "/miPortfolio/static/js/main.adb659db.js",
+    "main.css": "/miPortfolio/static/css/main.3c80a85f.css",
+    "main.js": "/miPortfolio/static/js/main.53107808.js",
     "static/js/453.bea66239.chunk.js": "/miPortfolio/static/js/453.bea66239.chunk.js",
     "static/media/samsung.gif": "/miPortfolio/static/media/samsung.2236b840c90d6496f5af.gif",
     "static/media/elemental2.gif": "/miPortfolio/static/media/elemental2.9cc182195f898fdc6b74.gif",
@@ -49,12 +49,12 @@
     "static/media/zeplin.png": "/miPortfolio/static/media/zeplin.ba486bccc9b1f86e2dec.png",
     "static/media/Illustrator.png": "/miPortfolio/static/media/Illustrator.4e3dd1419dbc4cf7aa63.png",
     "index.html": "/miPortfolio/index.html",
-    "main.31b9f147.css.map": "/miPortfolio/static/css/main.31b9f147.css.map",
-    "main.adb659db.js.map": "/miPortfolio/static/js/main.adb659db.js.map",
+    "main.3c80a85f.css.map": "/miPortfolio/static/css/main.3c80a85f.css.map",
+    "main.53107808.js.map": "/miPortfolio/static/js/main.53107808.js.map",
     "453.bea66239.chunk.js.map": "/miPortfolio/static/js/453.bea66239.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31b9f147.css",
-    "static/js/main.adb659db.js"
+    "static/css/main.3c80a85f.css",
+    "static/js/main.53107808.js"
   ]
 }
