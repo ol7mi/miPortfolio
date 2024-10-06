@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
     max-width: 1300px;
+    min-width: 1300px;
     margin: 0 auto;
     padding: 0 20px;
     background-color: var(--mi-400);
